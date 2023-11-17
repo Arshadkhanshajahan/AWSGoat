@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     env: 
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: AKIAVM7XKUCGH4BZ2LPV
+      AWS_SECRET_ACCESS_KEY: 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
       AWS_REGION: "us-east-1"
 
     defaults:
